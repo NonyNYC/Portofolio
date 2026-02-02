@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nony Yonindah | Informatika Pro</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="particles"></div>
+    
+    <header>
+        <nav class="glass">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1><i class="fas fa-code"></i> Nony</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about" class="nav-link"><i class="fas fa-user"></i> About Me</a></li>
+                    <li><a href="#education" class="nav-link"><i class="fas fa-graduation-cap"></i> Education</a></li>
+                    <li><a href="#experience" class="nav-link"><i class="fas fa-briefcase"></i> Intrenship</a></li>
+                    <li><a href="#skills" class="nav-link"><i class="fas fa-tools"></i> Skills</a></li>
+                    <li><a href="#contact" class="nav-link"><i class="fas fa-envelope"></i> Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+       <div class="hero-content">
+  <div class="hero-left">
+    <img src="Foto Diri.jpeg" alt="Nony Yonindah" class="hero-image">
+  </div>
+  <div class="hero-right">
+    <div class="typing-text">
+      <h2>Halo, Saya <span class="gradient-text">Nony Yonindah</span></h2>
+    </div>
+    <h3 class="dynamic-role">Mahasiswa Informatika</h3>
+    <div>
+      <p>Mahasiswa Informatika Semester 6 Dengan Fokus Jaringan Komputer, Data Analis dan UI/UX.</p>
+    </div>
+           <div class="hero-buttons">
+  <a href="#contact" class="cta primary">
+    <i class="fas fa-rocket"></i> Contact
+  </a>  
+ <a href="#about" class="cta primary" aria-label="Lihat CV">
+  <i class="fas fa-file-pdf"></i> Lihat CV
+</a>
+
+
+        </div>
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="about" class="about glass-section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Mahasiswa aktif Program Studi Informatika tahun ajaran 2023 dengan minat pada jaringan komputer, Analisis data, dan UI/UX design. Aktif mengembangkan keterampilan teknis dalam pengolahan data, desain antarmuka, dan infrastruktur jaringan. Terbiasa bekerja mandiri maupun dalam tim, serta bersemangat untuk berkontribusi dalam solusi digital yang efisien. Komitmen yang kuat untuk terus berkembang dengan memperdalam keterampilan komputer saya dan berkontribusi pada proyek-proyek kreatif dan inovatif.</p>
+                </div>
+                
+                <div class="about-image">
+                    <div class="profile-pic"></div>
+                </div>
+            </div>
+          <!-- Icon Download + View CV di About Me -->
+<div class="about-actions">
+  <a href="#" class="contact-icon cv-icon" onclick="openCVModal(event)" title="Lihat & Download CV" aria-label="Lihat & Download CV">
+    <i class="fas fa-file-pdf"></i>
+  </a>
+</div>
+
+    </section>
+
+    
+
+<section id="education" class="experience">
+  <div class="container">
+    <h2 class="section-title">
+       Education
+    </h2>
+    <div class="experience-grid">
+      <div class="exp-card" data-aos="fade-up">
+        <div class="exp-header">
+          <h3>SMK ST.Louis Surabaya</h3>
+          <span class="exp-date">2020 - 2023</span>
+        </div>
+        <p>TKJ Teknik Komputer Jaringan</p>
+      </div>
+      <div class="exp-card" data-aos="fade-up" data-aos-delay="100">
+        <div class="exp-header">
+          <h3>Universitas Pembangunan Nasional Veteran Jatim</h3>
+          <span class="exp-date">2023 - Sekarang</span>
+        </div>
+        <p>Prodi Informatika</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Intrenship</h2>
+            <div class="experience-grid">
+                <div class="exp-card" data-aos="fade-up">
+                    <div class="exp-header">
+                        <h3>PT. Elmi Cahaya Cendikia</h3>
+                        <span class="exp-date">Mar 2022 - Mei 2022</span>
+                    </div>
+                    <p>Crimping kabel LAN, stabilisasi jaringan, dan maintenance infrastruktur IT.</p>
+                </div>
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-header">
+                        <h3>SMA ST. Louis 2 Surabaya</h3>
+                        <span class="exp-date">Jun 2022 - Agustus 2022</span>
+                    </div>
+                    <p>Data management, instalasi OS, dan upgrade sistem</p>
+                </div>
+                
+                <div class="exp-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="exp-header">
+                        <h3>Badan Perencanaan Pembangunan Daerah(BAPPEDA) Surabaya</h3>
+                        <span class="exp-date">Jan 2026 - Jun 2026</span>
+                    </div>
+                    <p> Melakukan pengembangan solusi digital dari tahap analisis kebutuhan hingga testing dan dokumentasi untuk mendukung perencanaan pembangunan daerah.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title"> Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-chart-line"></i> Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <span>Data Analysis</span>
+                            <div class="progress" data-width="90"></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>UI/UX Design</span>
+                            <div class="progress" data-width="85"></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Web Development</span>
+                            <div class="progress" data-width="80"></div>
+                        </div>
+                        <div class="skill-bar">
+                            <span>Network Security</span>
+                            <div class="progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-handshake"></i> Soft Skills</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Komunikasi & Kerja Tim</li>
+                        <li><i class="fas fa-check"></i> Problem Solving</li>
+                        <li><i class="fas fa-check"></i> Manajemen Waktu</li>
+                        <li><i class="fas fa-check"></i> Adaptasi Cepat</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section id="contact" class="contact">
+  <div class="container">
+    <h2 class="section-title">
+      Contact
+    </h2>
+    <div class="contact-content">
+      <div class="contact-info">
+        <div class="contact-item">
+          <a href="Https://wa.me/+6282334350117" class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </a>
+          <div>
+            <h3>Phone</h3>
+            <p>082334350117</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <a href="mailto:nynonyyonindah@gmail.com" class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <div>
+            <h3>Email</h3>
+            <p>yournix0@gmail.com</p>
+          </div>
+        </div>
+        <div class="contact-item">
+          <a href="https://github.com/NonyNYC" target="_blank" class="contact-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <div>
+            <h3>GitHub</h3>
+            <p>NonyNYC</p>
+          </div>
+        </div>
+      </div>
+   
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
